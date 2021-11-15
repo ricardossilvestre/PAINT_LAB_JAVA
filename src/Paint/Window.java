@@ -118,6 +118,8 @@ public class Window extends JFrame implements ActionListener {
         circle      .addActionListener(this);
         square      .addActionListener(this);
 
+        //tsete
+
         figurePanel.add(ellipse);
         figurePanel.add(rectangle);
         figurePanel.add(circle);
