@@ -38,7 +38,7 @@ public class Circle extends Ellipse {
 
     @Override
     public String toString() {
-        return "Paint.Circle created at"  +
+        return "Circle created at"  +
                 " point "           + origin.getX() + "x" + origin.getY() +
                 ", length is "      + getAxysX() +
                 ", width is "       + getAxysY() +

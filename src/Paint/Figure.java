@@ -36,7 +36,7 @@ public abstract class Figure implements java.io.Serializable {
 
     @Override
     public String toString() {
-        return "Paint.Figure color is " + color;
+        return "Figure color is " + color;
     }
 }
 

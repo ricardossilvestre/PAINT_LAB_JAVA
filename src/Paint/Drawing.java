@@ -23,7 +23,7 @@ public class Drawing extends JPanel implements MouseMotionListener,MouseListener
 
     public Drawing() {
         super();
-        this.nameFigure = "Paint.Rectangle";
+        this.nameFigure = "Rectangle";
         this.c          = LIGHT_YELLOW;
         addMouseListener(this);
         addMouseMotionListener(this);
@@ -73,19 +73,19 @@ public class Drawing extends JPanel implements MouseMotionListener,MouseListener
 
         y_width = Math.abs(x_length);
 
-        if (nameFigure.equals("Paint.Rectangle")){
+        if (nameFigure.equals("Rectangle")){
             this.list.add(new Rectangle(x_pressed, y_pressed, x_length, y_width, this.c));
         }
 
-        if (nameFigure.equals("Paint.Ellipse")){
+        if (nameFigure.equals("Ellipse")){
             this.list.add(new Ellipse(x_pressed, y_pressed, x_length, y_width, this.c));
         }
 
-        if (nameFigure.equals("Paint.Square")){
+        if (nameFigure.equals("Square")){
             this.list.add(new Square(x_pressed, y_pressed, x_length, y_width, this.c));
         }
 
-        if (nameFigure.equals("Paint.Circle")){
+        if (nameFigure.equals("Circle")){
             this.list.add(new Circle(x_pressed, y_pressed, x_length, y_width, this.c));
         }
 
@@ -93,19 +93,19 @@ public class Drawing extends JPanel implements MouseMotionListener,MouseListener
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        if (nameFigure.equals("Paint.Rectangle")){
+        if (nameFigure.equals("Rectangle")){
             System.out.println(list.get(list.size()-1));
         }
 
-        if (nameFigure.equals("Paint.Ellipse")){
+        if (nameFigure.equals("Ellipse")){
             System.out.println(list.get(list.size()-1));
         }
 
-        if (nameFigure.equals("Paint.Square")){
+        if (nameFigure.equals("Square")){
             System.out.println(list.get(list.size()-1));
         }
 
-        if (nameFigure.equals("Paint.Circle")){
+        if (nameFigure.equals("Circle")){
             System.out.println(list.get(list.size()-1));
         }
 

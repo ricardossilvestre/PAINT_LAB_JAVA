@@ -133,7 +133,7 @@ public class Window extends JFrame implements ActionListener {
         southPanel  .add(figurePanel,"East");
         this.setVisible(true);
 
-        /// Paint.Drawing Panel ////
+        /// Drawing Panel ////
 
         this.drawing = new Drawing();
 
@@ -190,17 +190,17 @@ public class Window extends JFrame implements ActionListener {
             case "Orange" -> {
                 drawing.setColor(Color.ORANGE);
                 System.out.println("You selected orange!");}
-            case "Paint.Circle" -> {
-                drawing.setNameFigure("Paint.Circle");
+            case "Circle" -> {
+                drawing.setNameFigure("Circle");
                 System.out.println("You selected a circle!");}
-            case "Paint.Ellipse" -> {
-                drawing.setNameFigure("Paint.Ellipse");
+            case "Ellipse" -> {
+                drawing.setNameFigure("Ellipse");
                 System.out.println("You selected a ellipse!");}
-            case "Paint.Rectangle" -> {
-                drawing.setNameFigure("Paint.Rectangle");
+            case "Rectangle" -> {
+                drawing.setNameFigure("Rectangle");
                 System.out.println("You selected a rectangle!");}
-            case "Paint.Square" -> {
-                drawing.setNameFigure("Paint.Square");
+            case "Square" -> {
+                drawing.setNameFigure("Square");
                 System.out.println("You selected a square!");}
         }
     }

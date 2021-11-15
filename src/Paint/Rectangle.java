@@ -65,7 +65,7 @@ public class Rectangle extends Figure {
 
     @Override
     public String toString() {
-        return "Paint.Rectangle created at"   +
+        return "Rectangle created at"   +
                 " point "               + origin.getX() + "x" + origin.getY() +
                 ", length is "          + getLength() +
                 ", width is "           + getWidth() +

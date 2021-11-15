@@ -38,7 +38,7 @@ public class Square extends Rectangle {
 
     @Override
     public String toString() {
-        return "Paint.Square created at"  +
+        return "Square created at"  +
                 " point "           + origin.getX() + "x" + origin.getY() +
                 ", length is "      + getLength() +
                 ", width is "       + getWidth() +

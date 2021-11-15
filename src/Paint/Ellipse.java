@@ -64,7 +64,7 @@ public class Ellipse extends Figure {
         this.SemiAxysY = widthBB/2;
     }
 
-    //// Paint.Drawing ////
+    //// Drawing ////
 
     @Override
     public void draw(Graphics g) {
@@ -77,7 +77,7 @@ public class Ellipse extends Figure {
 
     @Override
     public String toString() {
-        return "Paint.Ellipse created at" +
+        return "Ellipse created at" +
                 " point "           + origin.getX() + "x" + origin.getY() +
                 ", length is "      + getAxysX() +
                 ", width is "       + getAxysY() +
